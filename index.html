@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MayTinhCamTay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="caculator">
+        <input id="screen" readonly>
+        <div id="keys">
+            <button onclick="JustDisplay('+')" class="maucam">+</button>
+            <button onclick="JustDisplay('7')">7</button>
+            <button onclick="JustDisplay('8')">8</button>
+            <button onclick="JustDisplay('9')">9</button>
+            <button onclick="JustDisplay('-')" class="maucam">-</button>
+            <button onclick="JustDisplay('4')">4</button>
+            <button onclick="JustDisplay('5')">5</button>
+            <button onclick="JustDisplay('6')">6</button>
+            <button onclick="JustDisplay('*')" class="maucam">*</button>
+            <button onclick="JustDisplay('1')">1</button>
+            <button onclick="JustDisplay('2')">2</button>
+            <button onclick="JustDisplay('3')">3</button>
+            <button onclick="JustDisplay('/')" class="maucam">/</button>
+            <button onclick="JustDisplay('0')">0</button>
+            <button onclick="JustDisplay('.')">.</button>
+            <button onclick="Caculate()">=</button>
+            <button onclick="Resetbutton()" class="maucam">C</button>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
